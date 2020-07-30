@@ -1,0 +1,25 @@
+{
+  "name": "afipbanksscraper",
+  "version": "1.0.0",
+  "description": "Scraper para los bancos definidos en la página de AFIP en 2020",
+  "main": "AFIPBankCodesGetter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanGaray93/AFIPBanksScraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanGaray93/AFIPBanksScraper/issues"
+  },
+  "homepage": "https://github.com/JuanGaray93/AFIPBanksScraper#readme",
+  "dependencies": {
+    "puppeteer": "^5.2.1"
+  },
+  "devDependencies": {
+  }
+}
